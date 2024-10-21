@@ -1,0 +1,25 @@
+.side_section{
+    background-image: url("../../public/backgroundImage.svg");
+    background-size: cover; /* or contain, depending on your needs */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.logoContainer svg{
+    font-size: 22px;
+    color: #8c57ff;
+}
+
+.logoContainer p{
+    color: #2e263de6;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    -webkit-transition: margin-inline-start undefinedms ease-in-out, opacity undefinedms ease-in-out;
+    transition: margin-inline-start undefinedms ease-in-out, opacity undefinedms ease-in-out;
+    opacity: 1;
+    -webkit-margin-start: 10px;
+    margin-inline-start: 10px;
+}
